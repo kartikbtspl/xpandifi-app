@@ -11,7 +11,7 @@ const AppLayout = ({ children }) => {
 
   return (
     <div className="flex h-screen overflow-hidden bg-gray-100">
-      {/* Sidebar */}
+
       <AppSidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
 
       {/* Main content */}
