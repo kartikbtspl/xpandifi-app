@@ -1,6 +1,5 @@
 import { Route } from "react-router-dom";
 import PrivateRoute from "./PrivateRoute";
-
 import AppLayout from "../layout/AppLayout";
 
 
