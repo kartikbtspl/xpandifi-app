@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import AppSidebar from "../components/AppSidebar";
-import Navbar from "../components/Navbar";
+import AppSidebar from "./AppSidebar";
+import Navbar from "./Navbar";
 
 const AppLayout = ({ children }) => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
