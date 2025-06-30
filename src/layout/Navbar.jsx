@@ -1,4 +1,4 @@
-import Input from "../components/input/Input";
+import Input from "../components/ui/input/Input";
 import { SearchIcon } from "../icon";
 
 const Navbar = ({ toggleSidebar }) => {
@@ -14,6 +14,7 @@ const Navbar = ({ toggleSidebar }) => {
           inputProps={{ type: "search" }}
           icon={<SearchIcon />}
           iconPosition="left"
+          className="mt-2"
         />
       </div>
 
