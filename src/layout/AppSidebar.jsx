@@ -11,7 +11,7 @@ const AppSidebar = ({ isOpen, toggleSidebar, }) => {
       }`}
     >
       <div className="flex justify-between items-center mb-8">
-        <img src={'images/Logo.svg'} />
+        <img src={'images/Logo.svg'} alt="xpandifi-logo" />
         <button className="md:hidden" onClick={toggleSidebar}>
           ❌
         </button>
