@@ -22,7 +22,6 @@ const Input = ({
         className={`inline-flex items-center w-[320px] h-[43px] rounded-[12px] border mt-2 ${
           error ? "border-red-500" : "border-gray-300"
         } pt-[11px] pr-3 pb-[11px] pl-3 gap-2.5
-          focus-within:ring-2 focus-within:ring-blue-500
           ${className}`}
       >
         {icon && iconPosition === "left" && (
